@@ -44,19 +44,22 @@
                 </div>
                 <div class="control-btn-container">
                     <button id="bold-btn" class="btn btn-dark control-btn">
-                        B
+                        <b>B</b>
                     </button>
                     <button id="underline-btn" class="btn btn-dark control-btn">
-                        U
+                       <u>U</u>
                     </button>
                     <button id="italic-btn" class="btn btn-dark control-btn">
-                        I
+                        <i>I</i>
+                    </button>
+                    <button id="image-btn" class="btn btn-dark control-btn" data-cmd="insertImage">
+                        Img
                     </button>
                     <input id="color-btn" type="color" class="control-btn" />
                 </div>
             </div>
 
-            <div id="content" contenteditable="true" spellcheck="false"></div>
+            <iframe id="content" contenteditable="true" spellcheck="false" name="textField"></iframe>
         </div>
 
         <script src="htmltopdf.js"></script>
