@@ -2,8 +2,7 @@ const boldBtn = document.querySelector("#bold-btn")
 const underlineBtn = document.querySelector("#underline-btn")
 const italicBtn = document.querySelector("#italic-btn")
 const colorBtn = document.querySelector("#color-btn")
-const imageBtn = document.querySelector('#image-btn')
-console.log(imageBtn);
+
 const newBtn = document.querySelector("#new-btn")
 const txtBtn = document.querySelector("#txt-btn")
 const pdfBtn = document.querySelector("#pdf-btn")
